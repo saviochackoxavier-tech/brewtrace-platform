@@ -1,4 +1,4 @@
-name: BrewTrace CI
+name: BrewTrace Enterprise CI/CD Pipeline
 
 on:
   push:
@@ -10,21 +10,31 @@ jobs:
   build-and-audit:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [18.x]
+        python-version: [3.12]
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
 
-      - name: Build production bundle
-        run: npm run build
+    - name: Install Node Dependencies
+      run: npm install
 
-      - name: Run VAPT security audit
-        run: python3 scripts/audit.py
+    - name: Build Application Bundle
+      run: npm run build
+
+    - name: Run VAPT Security Audit Suite
+      run: python3 scripts/audit.py
