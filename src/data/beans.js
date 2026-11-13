@@ -1,0 +1,68 @@
+export const BEANS = [
+  {
+    id: 'ethiopia',
+    name: 'Yirgacheffe Natural',
+    origin: 'Ethiopia',
+    region: 'Guji, Sidama',
+    farm: 'Hagere Mariam Washing Station',
+    process: 'Natural',
+    altitude: '1,900 – 2,100 m',
+    notes: 'Blueberry, jasmine, stone fruit, and a velvety body with citrus acidity.',
+    cup: '84–86',
+    price: 18.5,
+    delay: 0,
+    glow: '#7dd3fc',
+    icon: '☕',
+  },
+  {
+    id: 'kenya',
+    name: 'Kahawa III Washed',
+    origin: 'Kenya',
+    region: 'Nyeri',
+    farm: 'Kiangari Farmers Cooperative',
+    process: 'Washed',
+    altitude: '1,650 – 1,850 m',
+    notes: 'Blackcurrant, grapefruit, cocoa, and a bright, wine-like tannic structure.',
+    cup: '86–88',
+    price: 21.0,
+    delay: 80,
+    glow: '#fbbf24',
+    icon: '🌿',
+  },
+  {
+    id: 'colonia',
+    name: 'Huila Huila Geisha',
+    origin: 'Colombia',
+    region: 'Huila',
+    farm: 'Finca El Paraíso',
+    process: 'Honey',
+    altitude: '1,700 – 1,900 m',
+    notes: 'Tropical mango, peach, and a clean, tea-like finish with chocolate sweetness.',
+    cup: '87–89',
+    price: 26.0,
+    delay: 160,
+    glow: '#a78bfa',
+    icon: '🌺',
+  },
+  {
+    id: 'sumatra',
+    name: 'Mandheling Giling Basah',
+    origin: 'Indonesia',
+    region: 'North Sumatra',
+    farm: 'Tonggolitang Cooperative',
+    process: 'Wet-hulled (Giling Basah)',
+    altitude: '1,200 – 1,450 m',
+    notes: 'Dark chocolate, cedar, tobacco, and a heavy, syrupy mouthfeel.',
+    cup: '83–85',
+    price: 15.5,
+    delay: 240,
+    glow: '#f472b6',
+    icon: '🪨',
+  },
+];
+
+export const BEANS_BY_SLUG = Object.fromEntries(BEANS.map((b) => [b.id, b]));
+
+export function pick(ids) {
+  return BEANS.filter((b) => ids.includes(b.id));
+}

@@ -1,0 +1,42 @@
+export const BRANDS = [
+  {
+    id: 'hdfc',
+    label: 'HDFC Bank',
+    prefixes: ['4', '5'],
+    aliases: ['4000', '5000'],
+    icon: '🏦',
+    color: '#2e6db4',
+  },
+  {
+    id: 'sbi',
+    label: 'State Bank of India',
+    prefixes: ['5'],
+    aliases: ['5000'],
+    icon: '🏦',
+    color: '#ffb81c',
+  },
+  {
+    id: 'icici',
+    label: 'ICICI Bank',
+    prefixes: ['4'],
+    aliases: ['4000', '4026', '4035'],
+    icon: '🏦',
+    color: '#0071bc',
+  },
+  {
+    id: 'visa',
+    label: 'Visa',
+    prefixes: ['4'],
+    aliases: ['4000', '4026', '4035', '417500', '4488'],
+    icon: '💳',
+    color: '#1a1f71',
+  },
+  {
+    id: 'mastercard',
+    label: 'Mastercard',
+    prefixes: ['2', '5'],
+    aliases: ['5100', '5555'],
+    icon: '💳',
+    color: '#f79e1b',
+  },
+];
