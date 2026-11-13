@@ -111,7 +111,7 @@ BrewTrace enforces strict digital commerce regulations, zero-data retention secu
 ### 1. 3D Bank Card Checkout & Multi-Bank Theme Engine
 A high-performance reactive card embossing workspace built for multi-tenant banking operations (supporting HDFC, SBI, ICICI, Visa, and Mastercard). Features zero-server data retention with real-time client-side encryption, dynamic cardholder input mapping, and strict VAPT-audited sandbox isolation.
 
-![3D Bank Card Checkout & Multi-Bank Theme Engine](watermarked_img_2484880814403550961.png)
+![3D Bank Card Checkout & Multi-Bank Theme Engine](public/watermarked_img_2484880814403550961.png)
 
 ### 2. Direct-Trade Estate Provenance & Carbon Ledger
 Granular farm-gate payout tracking coupled with automated scope-emissions calculations per wholesale dispatch. Connecting end-consumers directly with estate elevation data, harvest timestamps, and verified fair-compensation metrics.
