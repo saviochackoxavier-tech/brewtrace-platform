@@ -108,10 +108,10 @@ python3 scripts/audit.py
 
 BrewTrace enforces strict digital commerce regulations, zero-data retention security standards, and radical supply chain transparency. Below is a visual walkthrough of our compliance and interface workflows:
 
-### 1. 3D Bank Card Checkout & Multi-Bank Theme Engine
-A high-performance reactive card embossing workspace built for multi-tenant banking operations (supporting HDFC, SBI, ICICI, Visa, and Mastercard). Features zero-server data retention with real-time client-side encryption, dynamic cardholder input mapping, and strict VAPT-audited sandbox isolation.
+### 1. Interactive Batch-Detail & Origin Mapping Suite
+*An immersive geospatial origin mapping interface connecting estate coordinates directly to active inventory lots and transport logistics. Features inline batch-detail drawers displaying deep roast profiles, verifiable farmer payout histories, and end-to-end chain-of-custody tracking.*
 
-![3D Bank Card Checkout & Multi-Bank Theme Engine](watermarked_img_2484880814403550961.png)
+![Interactive Batch-Detail & Origin Mapping Suite](https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1200&q=80)
 
 ### 2. Direct-Trade Estate Provenance & Carbon Ledger
 Granular farm-gate payout tracking coupled with automated scope-emissions calculations per wholesale dispatch. Connecting end-consumers directly with estate elevation data, harvest timestamps, and verified fair-compensation metrics.
