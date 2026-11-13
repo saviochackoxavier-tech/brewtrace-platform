@@ -7,7 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Vue 3](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
 
 *An uncompromising blend of direct-trade supply chain verification, zero-trust security auditing, and immersive 3D payment workflows.*
 
@@ -111,7 +111,7 @@ BrewTrace enforces strict digital commerce regulations, zero-data retention secu
 ### 1. 3D Bank Card Checkout & Multi-Bank Theme Engine
 Real-time card embossing workspace supporting multi-tenant banking themes (HDFC, SBI, ICICI, Visa, Mastercard) with strict client-side encryption and zero-server retention. The interactive 3D card layout renders cardholder inputs dynamically while maintaining VAPT-audited sandbox protocols.
 
-![3D Bank Card Checkout & Multi-Bank Theme Engine](https://images.unsplash.com/photo-1556742049-0a67d55362a5?auto=format&fit=crop&w=1200&q=80)
+![3D Bank Card Checkout & Multi-Bank Theme Engine](watermarked_img_2484880814403550961.png)
 
 ### 2. Direct-Trade Estate Provenance & Carbon Ledger
 Granular farm-gate payout tracking coupled with automated scope-emissions calculations per wholesale dispatch. Connecting end-consumers directly with estate elevation data, harvest timestamps, and verified fair-compensation metrics.
@@ -125,4 +125,21 @@ Continuous static analysis and zero-trust verification pipelines running on ever
 
 ## 📄 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE).
+## ⚖️ Legal & Compliance Documentation Suite
+
+### 1. Terms of Service & Wholesale Service Level Agreements (SLAs)
+- **Authorized Use / Fair-Use Policy:** This platform is strictly intended for licensed specialty coffee estate operators, wholesale distributors, verified roasters, and authorized retail buyers. Automated API scraping, unauthorized load testing, and credential sharing without prior written authorization from BrewTrace Operations are strictly prohibited.
+- **Wholesale SLAs:** Core inventory tracking and direct-trade ledger nodes maintain a target **99.9% availability** threshold under standard operational parameters. Wholesale orders submitted via the 3D secure checkout gateway are verified, encrypted, and queued within **250 milliseconds** of authorization.
+- **Liability Limitations:** BrewTrace disclaims liability for transit delays caused by extreme weather events, unforeseen supply chain disruptions at origin, or third-party banking sandbox downtime during high-volume gateway routing.
+
+### 2. Privacy Policy & Zero Data Retention (ZDR)
+- **Zero Data Retention on Payment Fields:** BrewTrace enforces a **Zero Data Retention** policy regarding sensitive payment fields (Card Number/PAN, CVV, Expiry Date). Raw cardholder data is encrypted locally in the browser before transit and is never stored, logged, or retained on backend servers or databases.
+- **Local-First Encryption Standards:** All personal account identifiers, telemetry, and transactional metadata are encrypted in transit (TLS 1.3) and at rest using AES-256 standards. Users retain full rights to request data export or account purging.
+
+### 3. Direct-Trade Ethical Disclosure & Fair-Compensation Standards
+- **Certified Fair-Compensation Breakdown:** BrewTrace operates on a radical transparency model designed to eliminate exploitative supply chain middlemen.
+- **Farm-Gate Payout Guarantee:** A minimum of **78%** of total consumer retail revenue goes directly to estate farmers and cooperative harvesters.
+- **Elevation & Harvest Traceability:** Every batch record links directly to verified geospatial coordinates, altitude metrics, and harvest date stamps.
+- **Carbon Accounting Standard:** Every wholesale dispatch incorporates automated carbon-offset balancing calculated via standardized scope-emissions algorithms.
+
